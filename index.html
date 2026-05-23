@@ -4,49 +4,55 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Apex AI | Never Miss Another Service Call Again</title>
-
-<meta name="description" content="Apex AI provides done-for-you AI receptionists for home service businesses. Answer calls 24/7, capture more leads, and book more jobs automatically.">
+<title>Apex AI | AI Receptionist for Service Businesses</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-html { scroll-behavior: smooth; }
-
 body { font-family: 'Inter', sans-serif; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.speaking {
+  animation: pulse 1.2s infinite;
+}
 </style>
 
 </head>
 
 <body class="bg-white text-slate-900">
 
-<!-- NAVBAR -->
-<nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<!-- META / GOOGLE PIXELS (PASTE YOUR IDS HERE) -->
+<!-- Meta Pixel -->
+<script>
+  // Replace with your Meta Pixel ID
+  // fbq('init', 'YOUR_PIXEL_ID');
+  // fbq('track', 'PageView');
+</script>
 
+<!-- Google Ads Tag -->
+<script>
+  // Replace with Google Ads conversion tag
+</script>
+
+<!-- NAV -->
+<nav class="border-b border-slate-200 bg-white sticky top-0 z-50">
 <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
 
-<div class="text-2xl font-extrabold">
+<div class="text-2xl font-black">
 Apex<span class="text-blue-600">AI</span>
 </div>
 
-<div class="hidden md:flex items-center gap-6 text-sm">
-
-<a href="#features" class="text-slate-600 hover:text-slate-900">Features</a>
-<a href="#industries" class="text-slate-600 hover:text-slate-900">Industries</a>
-<a href="#integrations" class="text-slate-600 hover:text-slate-900">Integrations</a>
-<a href="#faq" class="text-slate-600 hover:text-slate-900">FAQ</a>
-
-<a href="tel:+18137389660"
-class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-xl font-semibold">
-Call Demo
+<a href="#lead"
+class="bg-blue-600 text-white px-5 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
+Get Demo
 </a>
 
 </div>
-
-</div>
-
 </nav>
 
 <!-- HERO -->
@@ -54,122 +60,119 @@ Call Demo
 
 <div class="max-w-7xl mx-auto px-6 py-28 text-center">
 
-<div class="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 text-blue-300 px-4 py-2 rounded-full text-sm mb-8">
-
-<span class="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
-Now onboarding local service businesses
-
+<div class="text-blue-300 text-sm mb-6">
+Now powering automated AI receptionists for service businesses
 </div>
 
-<h1 class="text-5xl md:text-7xl font-black leading-tight mb-8">
-Never Miss Another<br>Service Call Again.
+<h1 class="text-5xl md:text-7xl font-black mb-8 leading-tight">
+Turn Missed Calls<br>Into Booked Jobs
 </h1>
 
-<p class="max-w-3xl mx-auto text-xl text-slate-300 mb-10">
-Your AI receptionist answers calls, captures leads, books appointments,
-and follows up automatically—so you can focus on running your business.
+<p class="text-slate-300 text-xl max-w-3xl mx-auto mb-10">
+Your AI receptionist answers every call, qualifies leads, and books appointments automatically — 24/7.
 </p>
 
-<div class="flex flex-col md:flex-row justify-center gap-4">
-
-<a href="tel:+18137389660"
-class="bg-blue-600 hover:bg-blue-500 px-10 py-5 rounded-2xl font-bold text-lg transition shadow-xl">
-📞 Call Live AI Demo
+<a href="#lead"
+class="bg-blue-600 hover:bg-blue-500 px-10 py-5 rounded-2xl font-bold text-lg inline-block">
+Start Free Demo Access
 </a>
-
-<a href="#features"
-class="border border-slate-600 px-10 py-5 rounded-2xl font-semibold hover:border-slate-400 transition">
-See Features
-</a>
-
-</div>
-
-<div class="mt-12 flex flex-wrap justify-center gap-8 text-sm text-slate-400">
-<div>✓ 24/7 Answering</div>
-<div>✓ Lead Capture</div>
-<div>✓ Appointment Booking</div>
-<div>✓ Instant Response</div>
-</div>
 
 </div>
 
 </section>
 
-<!-- TRUST -->
+<!-- PRICING ANCHOR STRATEGY -->
 <section class="bg-white">
 
-<div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-4 gap-6">
+<div class="max-w-6xl mx-auto px-6 py-24 text-center">
 
-<div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-center">
-<div class="text-3xl font-black">24/7</div>
-<div class="text-slate-600 mt-2">Always Available</div>
+<h2 class="text-4xl font-black mb-6">
+Simple, Transparent Pricing
+</h2>
+
+<p class="text-slate-600 mb-12 max-w-2xl mx-auto">
+Most service businesses spend $3,000–$6,000/month on missed calls, payroll, or lost leads.
+Apex AI replaces that at a fraction of the cost.
+</p>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="border border-slate-200 rounded-2xl p-8">
+<div class="text-xl font-bold mb-2">Starter</div>
+<div class="text-3xl font-black mb-4">$297/mo</div>
+<div class="text-slate-600">Basic AI receptionist setup</div>
 </div>
 
-<div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-center">
-<div class="text-3xl font-black">0</div>
-<div class="text-slate-600 mt-2">Missed Calls</div>
+<div class="border-2 border-blue-600 rounded-2xl p-8 bg-blue-50">
+<div class="text-xl font-bold mb-2">Growth</div>
+<div class="text-3xl font-black mb-4">$497/mo</div>
+<div class="text-slate-600">Calls + booking + CRM integration</div>
 </div>
 
-<div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-center">
-<div class="text-3xl font-black">Fast</div>
-<div class="text-slate-600 mt-2">Setup</div>
+<div class="border border-slate-200 rounded-2xl p-8">
+<div class="text-xl font-bold mb-2">Pro</div>
+<div class="text-3xl font-black mb-4">$997/mo</div>
+<div class="text-slate-600">Full automation + custom workflows</div>
 </div>
 
-<div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-center">
-<div class="text-3xl font-black">AI</div>
-<div class="text-slate-600 mt-2">Human-Like Voice</div>
 </div>
 
 </div>
 
 </section>
 
-<!-- PROBLEM -->
+<!-- AI LIVE DEMO -->
 <section class="bg-slate-50">
 
 <div class="max-w-6xl mx-auto px-6 py-24 text-center">
 
-<h2 class="text-4xl font-black mb-4">
-Every Missed Call Is Lost Revenue
+<h2 class="text-4xl font-black mb-10">
+Live AI Demo Experience
 </h2>
 
-<p class="text-slate-600 max-w-3xl mx-auto">
-Most service businesses lose leads simply because they can’t answer every call.
-Apex AI ensures every customer gets a response instantly.
-</p>
+<div class="bg-white border border-slate-200 rounded-3xl p-10 max-w-2xl mx-auto shadow">
+
+<div class="flex items-center justify-center gap-3 mb-6">
+
+<div class="w-3 h-3 bg-green-500 rounded-full speaking"></div>
+<div class="text-sm text-slate-600">AI is currently speaking...</div>
+
+</div>
+
+<div class="text-lg font-semibold text-slate-800">
+“Thanks for calling Apex AI. How can I help you today?”
+</div>
+
+<div class="mt-6 text-slate-500 text-sm">
+The AI responds instantly, books appointments, and captures leads automatically.
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<!-- HOW IT WORKS -->
+<!-- CALL RECORDING -->
 <section class="bg-white">
 
-<div class="max-w-7xl mx-auto px-6 py-24">
+<div class="max-w-6xl mx-auto px-6 py-24 text-center">
 
-<h2 class="text-4xl font-black text-center mb-16">
-How It Works
+<h2 class="text-4xl font-black mb-10">
+Real Customer Call Example
 </h2>
 
-<div class="grid md:grid-cols-3 gap-8">
+<p class="text-slate-600 mb-8">
+Listen to how Apex AI handles real inbound customer calls.
+</p>
 
-<div class="border border-slate-200 rounded-3xl p-8">
-<div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold mb-6">1</div>
-<h3 class="font-bold text-xl mb-3">Tell Us Your Business</h3>
-<p class="text-slate-600">We learn your services, pricing, and customer flow.</p>
-</div>
+<!-- Replace THIS iframe with your actual audio/video -->
+<div class="max-w-xl mx-auto">
 
-<div class="border border-slate-200 rounded-3xl p-8">
-<div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold mb-6">2</div>
-<h3 class="font-bold text-xl mb-3">We Build Your AI</h3>
-<p class="text-slate-600">We configure everything from scripts to integrations.</p>
-</div>
-
-<div class="border border-slate-200 rounded-3xl p-8">
-<div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-bold mb-6">3</div>
-<h3 class="font-bold text-xl mb-3">Go Live</h3>
-<p class="text-slate-600">Start answering calls and booking jobs immediately.</p>
-</div>
+<audio controls class="w-full">
+<source src="your-call-recording.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
 
 </div>
 
@@ -178,76 +181,22 @@ How It Works
 </section>
 
 <!-- FEATURES -->
-<section id="features" class="bg-slate-50">
+<section class="bg-slate-50">
 
 <div class="max-w-7xl mx-auto px-6 py-24">
 
 <h2 class="text-4xl font-black text-center mb-16">
-Everything Your AI Receptionist Does
+Everything Your AI Handles
 </h2>
-
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-<div class="bg-white border border-slate-200 p-6 rounded-2xl">✓ 24/7 Call Answering</div>
-<div class="bg-white border border-slate-200 p-6 rounded-2xl">✓ Appointment Scheduling</div>
-<div class="bg-white border border-slate-200 p-6 rounded-2xl">✓ Lead Qualification</div>
-<div class="bg-white border border-slate-200 p-6 rounded-2xl">✓ Call Transfers</div>
-<div class="bg-white border border-slate-200 p-6 rounded-2xl">✓ SMS Follow-Ups</div>
-<div class="bg-white border border-slate-200 p-6 rounded-2xl">✓ FAQ Handling</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- INDUSTRIES -->
-<section id="industries" class="bg-white">
-
-<div class="max-w-6xl mx-auto px-6 py-24">
-
-<h2 class="text-4xl font-black text-center mb-16">
-Built For Service Businesses
-</h2>
-
-<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Plumbing</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">HVAC</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Roofing</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Electricians</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Landscaping</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Cleaning Services</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Home Services</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center">Property Services</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- INTEGRATIONS -->
-<section id="integrations" class="bg-white">
-
-<div class="max-w-6xl mx-auto px-6 py-24">
-
-<h2 class="text-4xl font-black text-center mb-6">
-Works With Your Existing Tools
-</h2>
-
-<p class="text-slate-600 text-center max-w-3xl mx-auto mb-16">
-We integrate with the tools you already use—no need to change your workflow.
-</p>
 
 <div class="grid md:grid-cols-3 gap-6">
 
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center font-semibold">Jobber</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center font-semibold">Housecall Pro</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center font-semibold">ServiceTitan</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center font-semibold">GoHighLevel</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center font-semibold">Salesforce</div>
-<div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl text-center font-semibold">Google Calendar</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">24/7 Call Answering</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">Appointment Booking</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">Lead Qualification</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">CRM Integration</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">SMS Follow-ups</div>
+<div class="bg-white border border-slate-200 p-6 rounded-2xl">Call Transfers</div>
 
 </div>
 
@@ -255,84 +204,38 @@ We integrate with the tools you already use—no need to change your workflow.
 
 </section>
 
-<!-- COMPARISON -->
-<section class="bg-slate-50">
+<!-- LEAD FORM -->
+<section id="lead" class="bg-white">
 
-<div class="max-w-6xl mx-auto px-6 py-24">
+<div class="max-w-3xl mx-auto px-6 py-24 text-center">
 
-<h2 class="text-4xl font-black text-center mb-16">
-Why Businesses Choose Apex AI
+<h2 class="text-4xl font-black mb-6">
+Get Your AI Demo Setup
 </h2>
 
-<div class="overflow-hidden rounded-3xl border border-slate-200">
+<p class="text-slate-600 mb-10">
+Fill out the form and we’ll show you how many missed calls you’re losing.
+</p>
 
-<table class="w-full">
+<form class="space-y-4">
 
-<tr class="bg-slate-100">
-<th class="p-6 text-left">Traditional Receptionist</th>
-<th class="p-6 text-left bg-blue-50">Apex AI</th>
-</tr>
+<input type="text" placeholder="Your Name"
+class="w-full border border-slate-300 p-4 rounded-xl">
 
-<tr>
-<td class="p-6 border-t">Limited hours</td>
-<td class="p-6 border-t bg-blue-50">24/7 coverage</td>
-</tr>
+<input type="text" placeholder="Business Name"
+class="w-full border border-slate-300 p-4 rounded-xl">
 
-<tr>
-<td class="p-6 border-t">High salary cost</td>
-<td class="p-6 border-t bg-blue-50">Low monthly cost</td>
-</tr>
+<input type="text" placeholder="Phone Number"
+class="w-full border border-slate-300 p-4 rounded-xl">
 
-<tr>
-<td class="p-6 border-t">Missed calls</td>
-<td class="p-6 border-t bg-blue-50">Instant response</td>
-</tr>
+<button type="submit"
+class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-700">
 
-<tr>
-<td class="p-6 border-t">Slow hiring</td>
-<td class="p-6 border-t bg-blue-50">Ready in days</td>
-</tr>
+Get Free Demo
 
-</table>
+</button>
 
-</div>
-
-</div>
-
-</section>
-
-<!-- FAQ -->
-<section id="faq" class="bg-white">
-
-<div class="max-w-4xl mx-auto px-6 py-24">
-
-<h2 class="text-4xl font-black text-center mb-16">
-Frequently Asked Questions
-</h2>
-
-<div class="space-y-6">
-
-<div class="border border-slate-200 p-6 rounded-2xl">
-<h3 class="font-bold mb-2">Does it sound human?</h3>
-<p class="text-slate-600">Yes, it uses natural conversational AI.</p>
-</div>
-
-<div class="border border-slate-200 p-6 rounded-2xl">
-<h3 class="font-bold mb-2">Can it book appointments?</h3>
-<p class="text-slate-600">Yes, it schedules jobs automatically.</p>
-</div>
-
-<div class="border border-slate-200 p-6 rounded-2xl">
-<h3 class="font-bold mb-2">How fast can I go live?</h3>
-<p class="text-slate-600">Most businesses are live within a few days.</p>
-</div>
-
-<div class="border border-slate-200 p-6 rounded-2xl">
-<h3 class="font-bold mb-2">Do I need technical skills?</h3>
-<p class="text-slate-600">No, we handle everything for you.</p>
-</div>
-
-</div>
+</form>
 
 </div>
 
@@ -344,37 +247,29 @@ Frequently Asked Questions
 <div class="max-w-5xl mx-auto px-6 py-24 text-center">
 
 <h2 class="text-5xl font-black mb-6">
-Ready To Stop Missing Calls?
+Stop Missing Calls Today
 </h2>
 
-<p class="text-slate-300 text-xl mb-10">
-Call the live AI demo and experience it yourself.
+<p class="text-slate-300 mb-10 text-xl">
+Every missed call is a lost job. Let AI handle them instantly.
 </p>
 
-<a href="tel:+18137389660"
-class="bg-blue-600 hover:bg-blue-500 px-10 py-5 rounded-2xl font-bold text-xl inline-block transition">
-📞 Call (813) 738-9660
+<a href="#lead"
+class="bg-blue-600 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-blue-500 inline-block">
+Get Started Now
 </a>
 
 </div>
 
 </section>
 
-<!-- MOBILE CTA -->
-<div class="fixed bottom-4 left-4 right-4 md:hidden">
-
-<a href="tel:+18137389660"
-class="block bg-blue-600 text-white text-center py-4 rounded-2xl font-bold shadow-xl">
-📞 Call Demo
-</a>
-
-</div>
-
 <!-- FOOTER -->
 <footer class="bg-white border-t border-slate-200">
 
-<div class="max-w-7xl mx-auto px-6 py-8 text-center text-slate-500 text-sm">
+<div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm text-slate-500">
+
 © 2026 Apex AI. All Rights Reserved.
+
 </div>
 
 </footer>
