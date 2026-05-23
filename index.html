@@ -24,6 +24,16 @@
     .soft-shadow {
       box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
     }
+
+    .pulse-dot {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.4; }
+      100% { opacity: 1; }
+    }
   </style>
 </head>
 
@@ -93,28 +103,50 @@
   </div>
 </section>
 
-<!-- LIVE DEMO SECTION -->
+<!-- LIVE CALL SIMULATION (NEW) -->
 <section class="max-w-6xl mx-auto px-6 py-16 text-center">
 
   <h2 class="text-3xl font-bold mb-6 text-slate-900">
-    Live AI Reception Experience
+    Live AI Call Simulation
   </h2>
 
-  <div class="glass p-10 rounded-2xl border border-slate-200 soft-shadow">
+  <div class="glass p-8 rounded-2xl border border-slate-200 soft-shadow max-w-2xl mx-auto text-left">
 
-    <div class="text-green-600 font-semibold mb-2 animate-pulse">
-      AI is responding instantly
+    <div class="flex items-center gap-2 mb-4 text-green-600 font-semibold">
+      <span class="w-2 h-2 bg-green-500 rounded-full pulse-dot"></span>
+      AI Receptionist Active
     </div>
 
-    <div class="text-slate-500 text-sm mb-4">
-      Current Wait Time: 0 Seconds.
-    </div>
+    <div class="space-y-4 text-sm">
 
-    <div class="text-slate-700 text-sm">
-      “Thanks for calling—how can I help you today?”
+      <div>
+        <span class="text-slate-400">Ring… Ring…</span>
+      </div>
+
+      <div>
+        <span class="font-semibold">AI:</span> Thanks for calling—how can I help you today?
+      </div>
+
+      <div>
+        <span class="font-semibold">Customer:</span> I’ve got a leak under my kitchen sink.
+      </div>
+
+      <div>
+        <span class="font-semibold">AI:</span> Got it—sorry about that. When would you like us to come take a look?
+      </div>
+
+      <div>
+        <span class="font-semibold">Customer:</span> Tomorrow afternoon works.
+      </div>
+
+      <div>
+        <span class="font-semibold">AI:</span> Perfect—I’ll get you scheduled for tomorrow afternoon. What’s the best number to text confirmation to?
+      </div>
+
     </div>
 
   </div>
+
 </section>
 
 <!-- CRM SECTION -->
