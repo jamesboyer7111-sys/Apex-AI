@@ -12,17 +12,22 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background: #f8fafc;
+      background: #f1f5f9;
       color: #0f172a;
     }
 
     .glass {
-      background: rgba(255, 255, 255, 0.8);
+      background: rgba(255, 255, 255, 0.85);
       backdrop-filter: blur(10px);
     }
 
     .soft-shadow {
-      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.10);
+    }
+
+    .dark-panel {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
     }
   </style>
 </head>
@@ -66,8 +71,77 @@
 
 </header>
 
+<!-- QUICK REVENUE HOOK (NEW) -->
+<section class="max-w-6xl mx-auto px-6 pb-10 text-center">
+
+  <div class="dark-panel p-8 rounded-2xl soft-shadow">
+
+    <h2 class="text-2xl font-bold mb-4">
+      Even 1 missed call per day can cost real money
+    </h2>
+
+    <p class="text-slate-300 text-sm mb-4">
+      Example: If your average job is $250 and you miss just 2 calls per day…
+    </p>
+
+    <p class="text-3xl font-extrabold text-white">
+      That’s ~$15,000/month in lost revenue
+    </p>
+
+    <p class="text-slate-400 text-sm mt-3">
+      Most businesses don’t realize it until they stop missing calls.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- ROI BEFORE / AFTER SECTION -->
+<section class="max-w-6xl mx-auto px-6 py-12 text-center">
+
+  <h2 class="text-3xl font-bold mb-10 text-slate-900">
+    The Cost of Missed Calls vs AI Handling Them
+  </h2>
+
+  <div class="grid md:grid-cols-2 gap-6">
+
+    <!-- BEFORE -->
+    <div class="glass p-8 rounded-2xl border border-red-100 soft-shadow">
+      <h3 class="text-xl font-bold mb-4 text-red-500">Before Apex AI</h3>
+
+      <div class="text-left space-y-3 text-slate-600 text-sm">
+        <p>❌ Calls go to voicemail after hours</p>
+        <p>❌ 20–40% of leads never get answered</p>
+        <p>❌ Missed emergency jobs</p>
+        <p>❌ Revenue leaks every week</p>
+      </div>
+
+      <p class="mt-6 text-2xl font-bold text-red-500">
+        Lost Revenue Every Month
+      </p>
+    </div>
+
+    <!-- AFTER -->
+    <div class="glass p-8 rounded-2xl border border-green-100 soft-shadow">
+      <h3 class="text-xl font-bold mb-4 text-green-600">With Apex AI</h3>
+
+      <div class="text-left space-y-3 text-slate-600 text-sm">
+        <p>✅ Every call answered instantly</p>
+        <p>✅ Leads qualified automatically</p>
+        <p>✅ Appointments booked 24/7</p>
+        <p>✅ No missed after-hours jobs</p>
+      </div>
+
+      <p class="mt-6 text-2xl font-bold text-green-600">
+        More Booked Jobs, Same Team Size
+      </p>
+    </div>
+
+  </div>
+</section>
+
 <!-- WHAT IT DOES -->
-<section class="max-w-6xl mx-auto px-6 py-16">
+<section class="max-w-6xl mx-auto px-6 py-12">
 
   <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">
     What Apex AI Does
@@ -93,54 +167,8 @@
   </div>
 </section>
 
-<!-- ROI BEFORE / AFTER SECTION (NEW) -->
-<section class="max-w-6xl mx-auto px-6 py-16 text-center">
-
-  <h2 class="text-3xl font-bold mb-10 text-slate-900">
-    The Cost of Missed Calls vs AI Handling Them
-  </h2>
-
-  <div class="grid md:grid-cols-2 gap-6">
-
-    <!-- BEFORE -->
-    <div class="glass p-8 rounded-2xl border border-red-100 soft-shadow">
-      <h3 class="text-xl font-bold mb-4 text-red-500">Before Apex AI</h3>
-
-      <div class="text-left space-y-3 text-slate-600 text-sm">
-        <p>❌ Calls go to voicemail after hours</p>
-        <p>❌ 20–40% of leads never get answered</p>
-        <p>❌ Missed emergency / urgent jobs</p>
-        <p>❌ Lost revenue every single week</p>
-        <p>❌ Staff overwhelmed or unavailable</p>
-      </div>
-
-      <p class="mt-6 text-2xl font-bold text-red-500">
-        Lost Revenue Every Month
-      </p>
-    </div>
-
-    <!-- AFTER -->
-    <div class="glass p-8 rounded-2xl border border-green-100 soft-shadow">
-      <h3 class="text-xl font-bold mb-4 text-green-600">With Apex AI</h3>
-
-      <div class="text-left space-y-3 text-slate-600 text-sm">
-        <p>✅ Every call answered instantly</p>
-        <p>✅ Leads qualified automatically</p>
-        <p>✅ Appointments booked 24/7</p>
-        <p>✅ No missed after-hours jobs</p>
-        <p>✅ Revenue captured automatically</p>
-      </div>
-
-      <p class="mt-6 text-2xl font-bold text-green-600">
-        More Booked Jobs, Same Team Size
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!-- CRM SECTION -->
-<section class="max-w-6xl mx-auto px-6 py-16 text-center">
+<!-- CRM -->
+<section class="max-w-6xl mx-auto px-6 py-12 text-center">
 
   <h2 class="text-3xl font-bold mb-6 text-slate-900">
     Works With Your Existing Tools
@@ -160,7 +188,7 @@
 </section>
 
 <!-- PRICING -->
-<section class="max-w-6xl mx-auto px-6 py-16 text-center">
+<section class="max-w-6xl mx-auto px-6 py-12 text-center">
 
   <h2 class="text-3xl font-bold mb-10 text-slate-900">
     Simple Pricing
@@ -187,6 +215,14 @@
 <footer class="text-center text-slate-500 text-sm py-10">
   © 2026 Apex AI. All rights reserved.
 </footer>
+
+<!-- MOBILE CTA BAR -->
+<div class="fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 md:hidden soft-shadow">
+  <a href="tel:+18137389660"
+     class="block text-center bg-blue-600 text-white py-3 rounded-xl font-semibold">
+    Call Now (813) 738-9660
+  </a>
+</div>
 
 </body>
 </html>
