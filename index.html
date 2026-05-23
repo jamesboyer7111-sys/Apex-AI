@@ -12,101 +12,105 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background: radial-gradient(circle at top, #0b1220, #020617);
-    }
-
-    .glow {
-      box-shadow: 0 0 40px rgba(59,130,246,0.15);
+      background: #f8fafc;
+      color: #0f172a;
     }
 
     .glass {
-      background: rgba(15, 23, 42, 0.6);
+      background: rgba(255, 255, 255, 0.8);
       backdrop-filter: blur(10px);
+    }
+
+    .soft-shadow {
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
     }
   </style>
 </head>
 
-<body class="text-white">
+<body>
 
 <!-- NAV -->
 <nav class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
   <div class="text-2xl font-bold tracking-tight">
-    Apex<span class="text-blue-500">AI</span>
+    Apex<span class="text-blue-600">AI</span>
   </div>
 
-  <a href="#book"
-     class="text-sm px-5 py-2 rounded-full border border-slate-700 hover:border-blue-500 transition">
-    Book Demo
+  <a href="tel:+18137389660"
+     class="text-sm px-5 py-2 rounded-full border border-slate-200 hover:border-blue-500 transition bg-white soft-shadow">
+    Call (813) 738-9660
   </a>
 </nav>
 
 <!-- HERO -->
 <header class="max-w-6xl mx-auto px-6 py-20 text-center">
 
-  <div class="inline-flex items-center gap-2 text-blue-300 text-sm px-4 py-1 rounded-full border border-blue-900 bg-blue-950/30 mb-6">
-    ● Now deploying AI receptionists for service businesses
+  <div class="inline-flex items-center gap-2 text-blue-700 text-sm px-4 py-1 rounded-full border border-blue-100 bg-blue-50 mb-6">
+    ● AI Receptionists for Service Businesses
   </div>
 
-  <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+  <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-slate-900">
     Your AI Receptionist<br />
     Answers Calls. Books Jobs. 24/7.
   </h1>
 
-  <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-10">
-    We build fully managed AI phone agents that handle your inbound calls, qualify leads, and book appointments automatically.
+  <p class="text-slate-600 text-lg max-w-2xl mx-auto mb-10">
+    We build fully managed AI phone agents that handle inbound calls, qualify leads, and help you capture more jobs automatically.
   </p>
 
   <div class="flex flex-col md:flex-row gap-4 justify-center">
-    <a href="#book" class="bg-blue-600 hover:bg-blue-500 px-8 py-4 rounded-xl font-semibold glow">
-      Get Demo Access
-    </a>
-
-    <a href="tel:+18137389660" class="border border-slate-700 px-8 py-4 rounded-xl">
-      Call (813) 738-9660
+    <a href="tel:+18137389660"
+       class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-xl font-semibold soft-shadow">
+      Call Now: (813) 738-9660
     </a>
   </div>
+
 </header>
 
 <!-- WHAT IT DOES -->
 <section class="max-w-6xl mx-auto px-6 py-16">
-  <h2 class="text-3xl font-bold text-center mb-10">What Apex AI Does</h2>
+
+  <h2 class="text-3xl font-bold text-center mb-10 text-slate-900">
+    What Apex AI Does
+  </h2>
 
   <div class="grid md:grid-cols-3 gap-6">
 
-    <div class="glass p-6 rounded-2xl border border-slate-800">
+    <div class="glass p-6 rounded-2xl border border-slate-200 soft-shadow">
       <h3 class="font-bold mb-2">Answers Every Call</h3>
-      <p class="text-slate-400 text-sm">Never miss another lead again—even after hours or weekends.</p>
+      <p class="text-slate-600 text-sm">Never miss another lead—even after hours or weekends.</p>
     </div>
 
-    <div class="glass p-6 rounded-2xl border border-slate-800">
+    <div class="glass p-6 rounded-2xl border border-slate-200 soft-shadow">
       <h3 class="font-bold mb-2">Qualifies Customers</h3>
-      <p class="text-slate-400 text-sm">Understands intent and filters serious buyers automatically.</p>
+      <p class="text-slate-600 text-sm">Understands intent and filters serious buyers automatically.</p>
     </div>
 
-    <div class="glass p-6 rounded-2xl border border-slate-800">
+    <div class="glass p-6 rounded-2xl border border-slate-200 soft-shadow">
       <h3 class="font-bold mb-2">Books Appointments</h3>
-      <p class="text-slate-400 text-sm">Routes leads directly into your workflow instantly.</p>
+      <p class="text-slate-600 text-sm">Routes leads directly into your workflow instantly.</p>
     </div>
 
   </div>
 </section>
 
 <!-- LIVE DEMO SECTION -->
-<section class="max-w-6xl mx-auto px-6 py-16">
+<section class="max-w-6xl mx-auto px-6 py-16 text-center">
 
-  <h2 class="text-3xl font-bold text-center mb-6">Live AI Reception Experience</h2>
+  <h2 class="text-3xl font-bold mb-6 text-slate-900">
+    Live AI Reception Experience
+  </h2>
 
-  <div class="glass p-8 rounded-2xl border border-slate-800 text-center">
+  <div class="glass p-10 rounded-2xl border border-slate-200 soft-shadow">
 
-    <div class="text-green-400 font-semibold mb-2 animate-pulse">
+    <div class="text-green-600 font-semibold mb-2 animate-pulse">
       AI is responding instantly
     </div>
 
-    <div class="text-slate-400 text-sm mb-4">
+    <div class="text-slate-500 text-sm mb-4">
       Current Wait Time: 0 Seconds.
     </div>
 
-    <div class="text-slate-300 text-sm">
+    <div class="text-slate-700 text-sm">
       “Thanks for calling—how can I help you today?”
     </div>
 
@@ -116,17 +120,19 @@
 <!-- CRM SECTION -->
 <section class="max-w-6xl mx-auto px-6 py-16 text-center">
 
-  <h2 class="text-3xl font-bold mb-6">Works With Your Existing Tools</h2>
+  <h2 class="text-3xl font-bold mb-6 text-slate-900">
+    Works With Your Existing Tools
+  </h2>
 
-  <p class="text-slate-400 mb-8">
+  <p class="text-slate-600 mb-8">
     Integrates with most major CRMs and dispatch systems.
   </p>
 
-  <div class="flex flex-wrap justify-center gap-4 text-slate-300 text-sm">
+  <div class="flex flex-wrap justify-center gap-4 text-slate-700 text-sm">
 
-    <div class="px-4 py-2 border border-slate-800 rounded-lg">Jobber</div>
-    <div class="px-4 py-2 border border-slate-800 rounded-lg">Housecall Pro</div>
-    <div class="px-4 py-2 border border-slate-800 rounded-lg">ServiceTitan</div>
+    <div class="px-4 py-2 border border-slate-200 rounded-lg bg-white soft-shadow">Jobber</div>
+    <div class="px-4 py-2 border border-slate-200 rounded-lg bg-white soft-shadow">Housecall Pro</div>
+    <div class="px-4 py-2 border border-slate-200 rounded-lg bg-white soft-shadow">ServiceTitan</div>
 
   </div>
 </section>
@@ -134,43 +140,23 @@
 <!-- PRICING -->
 <section class="max-w-6xl mx-auto px-6 py-16 text-center">
 
-  <h2 class="text-3xl font-bold mb-10">Simple Pricing</h2>
+  <h2 class="text-3xl font-bold mb-10 text-slate-900">
+    Simple Pricing
+  </h2>
 
   <div class="grid md:grid-cols-2 gap-6">
 
-    <div class="glass p-8 rounded-2xl border border-blue-900 glow">
+    <div class="glass p-8 rounded-2xl border border-blue-200 soft-shadow">
       <h3 class="text-xl font-bold mb-2">Setup</h3>
       <p class="text-4xl font-extrabold mb-2">$997</p>
-      <p class="text-slate-400 text-sm">One-time build & deployment</p>
+      <p class="text-slate-600 text-sm">One-time build & deployment</p>
     </div>
 
-    <div class="glass p-8 rounded-2xl border border-slate-800">
+    <div class="glass p-8 rounded-2xl border border-slate-200 soft-shadow">
       <h3 class="text-xl font-bold mb-2">Monthly</h3>
       <p class="text-4xl font-extrabold mb-2">$297 – $997</p>
-      <p class="text-slate-400 text-sm">Depending on call volume & integrations</p>
+      <p class="text-slate-600 text-sm">Based on usage & integrations</p>
     </div>
-
-  </div>
-</section>
-
-<!-- LEAD FORM -->
-<section id="book" class="max-w-3xl mx-auto px-6 py-20">
-
-  <div class="glass p-8 rounded-2xl border border-slate-800">
-
-    <h2 class="text-2xl font-bold mb-6 text-center">Get Your Demo</h2>
-
-    <form class="space-y-4">
-
-      <input class="w-full p-3 rounded bg-slate-900 border border-slate-700" placeholder="Full Name" />
-      <input class="w-full p-3 rounded bg-slate-900 border border-slate-700" placeholder="Business Name" />
-      <input class="w-full p-3 rounded bg-slate-900 border border-slate-700" placeholder="Phone Number" />
-
-      <button class="w-full bg-blue-600 hover:bg-blue-500 p-3 rounded font-semibold">
-        Request Demo
-      </button>
-
-    </form>
 
   </div>
 </section>
@@ -179,12 +165,6 @@
 <footer class="text-center text-slate-500 text-sm py-10">
   © 2026 Apex AI. All rights reserved.
 </footer>
-
-<!-- META / ADS PLACEHOLDER -->
-<script>
-  // Meta Pixel placeholder
-  // Google Ads conversion tracking placeholder
-</script>
 
 </body>
 </html>
